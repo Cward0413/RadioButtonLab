@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div>
+<form>
+    <div class="day">
+        <label for="Monday">Monday</label>
+        <input type="radio" id="Monday" name="weekDay" value="Monday" checked="checked">
+    </div>
+    <div class="day">
+        <label for="Tuesday">Tuesday</label>
+        <input type="radio" id="Tuesday" name="weekDay" value="Tuesday">
+    </div>
+    <div class="day">
+        <label for="Wednesday">Wednesday</label>
+        <input type="radio" id="Wednesday" name="weekDay" value="Wednesday">
+    </div>
+    <div class="day">
+        <label for="Thursday">Thursday</label>
+        <input type="radio" id="Thursday" name="weekDay" value="Thursday">
+    </div>
+    <div class="day">
+        <label for="Friday">Friday</label>
+        <input type="radio" id="Friday" name="weekDay" value="Friday">
+    </div>
+    <div class="day">
+        <label for="Saturday">Saturday</label>
+        <input type="radio" id="Saturday" name="weekDay" value="Saturday">
+    </div>
+    <div class="day">
+        <label for="Sunday">Sunday</label>
+        <input type="radio" id="Sunday" name="weekDay" value="Sunday">
+    </div>
+
+    <button type="submit" id="checkSchedule">Show my schedule!</button>
+</form>
+</div>
+
+<div>
+
+    <span id="scheduleOutput"></span>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
